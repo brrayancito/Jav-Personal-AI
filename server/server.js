@@ -16,7 +16,7 @@ App.use(cors());
 App.use(Express.json());
 
 App.get("/", async (req, res) => {
-  res.status(200).send("Hello from CodeX");
+  res.status(200).send("Hello from Jav");
 });
 
 App.post("/", async (req, res) => {
